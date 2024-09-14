@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 100px;
+    padding-right: 500px;
+  }
+  
+  body {
+    background-color: rgb(248, 248, 237);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 50px;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-family: "Reserv W00 Light";
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #25AE84;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+    font-weight: bolder;
+  }
+  
+  nav ul li a:hover {
+    background-color: #25AE84;
+    color: white;
+  }
+  main {
+    padding: 40px 20px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* About Intro Section */
+.about-intro {
+    background-color: #25AE84; /* Herbal green */
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+.about-intro h1 {
+    font-size: 36px;
+    color: #25AE84;
+}
+
+.about-intro p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Mission Section */
+.our-mission {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-mission h2 {
+    font-size: 30px;
+    color: #25AE84; /* Herbal green */
+}
+
+.our-mission p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+}
+.h1{
+    color: #25AE84;
+}
+.h2{
+    color: white;
+    padding-bottom: 5px;
+}
+
+/* Team Section */
+.meet-the-team {
+    background-color: #25AE84; /* Herbal green */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ffffff; /* White border */
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.team-photo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.team-info h3 {
+    font-size: 24px;
+    color: white;
+    margin: 10px 0;
+}
+
+.team-info p {
+    font-size: 16px;
+    color: #f4f4f4; /* Light grey for readability */
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Values Section */
+.our-values {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-values h2 {
+    font-size: 30px;
+    color: #25AE84; /* Herbal green */
+}
+
+.our-values ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.our-values li {
+    background: #f9f9f9;
+    border-left: 5px solid #25AE84; /* Herbal green */
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.our-values li:hover {
+    background-color: #e1f5e0; /* Light herbal green */
+    transform: translateX(5px);
+}
+
+.our-values li strong {
+    color: #25AE84; /* Herbal green */
+}
+.footer {
+    background-color: #25AE84;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px;
+  }
+  
+  .footer-section h2, .footer-section h3 {
+    margin-top: 0;
+  }
+  
+  .footer-section a {
+    color: #e1306c; /* Default link color */
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }
+  
+  .social-links {
+    margin-bottom: 10px;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0 10px;
+    transition: transform 0.3s;
+  }
+  
+  /* Specific styles for each social media icon */
+  .social-icon.facebook {
+    color: #1877f2; /* Facebook color */
+  }
+  
+  .social-icon.twitter {
+    color: #1da1f2; /* Twitter color */
+  }
+  
+  .social-icon.instagram {
+    color: #e1306c; /* Instagram color */
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+  .footer-bottom p {
+    margin: 10px 0;
+    font-size: 14px;
+  }

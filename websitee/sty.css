@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  padding-right: 500px;
+}
+
+body {
+  background-color: rgb(248, 248, 237);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Reserv W00 Light";
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #25AE84;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: 10px;
+  transition: 0.4s;
+  font-weight: bolder;
+}
+
+nav ul li a:hover {
+  background-color: #25AE84;
+  color: white;
+}
+
+.weltxt {
+  position:  relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  letter-spacing: 2px;
+  top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #25AE84;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.hvideo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: absolute;
+  top: 250px;
+  left: 90px;
+  background-color: #25AE84;
+}
+
+.hhp {
+  color: white;
+ font-size: 20px;
+  letter-spacing: normal;
+  word-spacing: 2px;
+  text-indent: auto;
+  height: 250px;
+  width: 700px;
+}
+
+.hhpc {
+  position: relative;
+  left: 10px;
+}
+
+.hwimg {
+  background-color: #25AE84;
+}
+
+.scimgc{
+  position: relative;
+  top: 550px;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+.img3txt{
+  display: flex;
+  font-size: 20px;
+  color:#25AE84;
+  top: 500px;
+  position: relative;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.sec3{
+  position: relative;
+    top: 786px;
+    left: 50px;
+    width: 500px;
+    height: 300px;
+}
+.img11{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  background-color: #25AE84;
+  top: 1205px;
+  left: 350px;
+}
+.p2{
+  color: white;
+  font-size: 20px;
+   letter-spacing: normal;
+   word-spacing: 2px;
+   text-indent: auto;
+   height: 280px;
+   width: 700px;
+   background-color: #25AE84;
+   padding: 10px;
+   top: 480px;
+   position: relative;
+   left: 623px;
+
+}
+.sec3c{
+  background-color: #25AE84;
+  
+}
+.ftxt{
+  display: flex;
+    top: 600px;
+    position: relative;
+    font-size: 25px;
+    justify-content: center;
+    color: #25AE84;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fltxt{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 520px;
+  font-size: larger;
+  color: #25AE84;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer {
+  background-color: #25AE84;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  text-align: center;
+  position: relative;
+  top: 650px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  max-width: 300px;
+}
+
+.footer-section h2, .footer-section h3 {
+  margin-top: 0;
+}
+
+.footer-section a {
+  color: #e1306c; /* Default link color */
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.social-links {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  text-decoration: none;
+  font-size: 24px; /* Adjust size as needed */
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+/* Specific styles for each social media icon */
+.social-icon.facebook {
+  color: #1877f2; /* Facebook color */
+}
+
+.social-icon.twitter {
+  color: #1da1f2; /* Twitter color */
+}
+
+.social-icon.instagram {
+  color: #e1306c; /* Instagram color */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.footer-bottom p {
+  margin: 10px 0;
+  font-size: 14px;
+}
